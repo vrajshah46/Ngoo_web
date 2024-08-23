@@ -1,0 +1,286 @@
+.header {
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+.logo {
+    max-height: 50px;
+}
+.contact-info {
+    font-size: 14px;
+    color: #666;
+}
+.donate-btn {
+    background-color: #f39200;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.donate-btn:hover {
+    background-color: #e07c00;
+}
+.img1{
+    width: 220vh;
+    height: 80vh;
+    background-repeat:repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width: 600px){
+    .img1{
+         object-fit: cover;
+    }
+ }
+
+.heading{
+    font-size: 25px;
+    height: 400px;
+}
+@media screen and (max-width: 600px){
+    .heading h3,p{
+        width: 300px !important;
+    }
+ }
+ 
+.cause-card img {
+    width: 100%;
+    height: auto;
+}
+.progress {
+    height: 6px;
+    margin-bottom: 1rem;
+}
+.cause-card .amount {
+    font-size: 1.5rem;
+    color: #ff6600;
+}
+.cause-card .percentage {
+    font-size: 1rem;
+    color: #888;
+}
+.cause-card h5 {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.gallery-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.gallery-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.gallery-section h2 span {
+    color: #ff6600;
+}
+.gallery-section p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    color: #777;
+}
+.gallery-item {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+.event-section {
+    position: relative;
+    /* padding: 50px 0; */
+}
+.event-section img {
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+.event-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+}
+.event-details {
+    z-index: 2;
+    padding: 20px;
+}
+.event-details h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff6600;
+}
+.event-details p {
+    font-size: 1.2rem;
+}
+.upcoming-events {
+    z-index: 2;
+    padding: 20px;
+}
+.upcoming-events h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff6600;
+}
+.upcoming-event {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.upcoming-event .date-box {
+    background: #ff6600;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+.upcoming-event .date-box h4 {
+    font-size: 2rem;
+    margin: 0;
+}
+.upcoming-event .date-box span {
+    font-size: 1rem;
+}
+.upcoming-event .event-info {
+    flex-grow: 1;
+}
+.upcoming-event .event-info h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.upcoming-event .event-info .meta {
+    font-size: 1rem;
+    color: #ccc;
+}
+.cause-section {
+    background-image: url('image14.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 0;
+    position: relative;
+}
+.cause-content {
+    padding: 30px;
+    border-radius: 10px;
+}
+.progress-bar {
+    background-color: #ff5e00;
+    height: 20px;
+}
+.donate-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.donate-now {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.testimonial h5 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.testimonial small {
+    display: block;
+    margin-top: 5px;
+    color: #888;
+}
+
+.testimonial .quote {
+    font-size: 30px;
+    color: #ff6c00;
+}
+
+.testimonials-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonials-title h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.testimonials-title p {
+    font-size: 16px;
+    color: #777;
+}
+.volunteer-section {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.volunteer-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.volunteer-section p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+.btn-learn-more {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0;
+}
+.btn-join-us {
+    background-color: #ff7f22;
+    color: white;
+    border-radius: 0;
+}
+.btn-join-us:hover {
+    background-color: #ff5e00;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    .image1{
+         height: 100vh !important;
+         object-fit: cover;
+    }
+ }
+
+@media screen and (max-width: 780px){
+   .image1{
+        height: 120vh !important;
+        object-fit: cover;
+   }
+}
