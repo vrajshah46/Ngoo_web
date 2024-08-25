@@ -37,11 +37,11 @@
     font-size: 25px;
     height: 400px;
 }
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
     .heading h3,p{
         width: 300px !important;
     }
- }
+ } */
  
 .cause-card img {
     width: 100%;
@@ -94,9 +94,9 @@
 .gallery-item:hover img {
     transform: scale(1.1);
 }
-.event-section {
+/* .event-section {
     position: relative;
-    /* padding: 50px 0; */
+    padding: 50px 0;
 }
 .event-section img {
     width: 100%;
@@ -162,7 +162,7 @@
 .upcoming-event .event-info .meta {
     font-size: 1rem;
     color: #ccc;
-}
+} */
 .cause-section {
     background-image: url('image14.jpg'); /* Add your background image here */
     background-size: cover;
@@ -271,16 +271,50 @@
     color: white;
 }
 
-@media screen and (max-width: 600px){
-    .image1{
-         height: 100vh !important;
-         object-fit: cover;
-    }
- }
+.event-section1 {
+    background-image: url('image1.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #fff;
+}
 
-@media screen and (max-width: 780px){
-   .image1{
-        height: 120vh !important;
-        object-fit: cover;
-   }
+.event-box1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    max-width: 400px;
+}
+
+.event-title1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.event-subtitle1 {
+    color:  #ff5e00;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.upcoming-events1 {
+    color:  #ff5e00;
+    font-size: 28px;
+}
+
+.event-date1 {
+    background-color: #ff5e00;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.event-details1 {
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    padding: 20px;
+}
+
+.event-location1 {
+    color:  #ff5e00;
 }
